@@ -70,7 +70,7 @@ function placeOrder(cardNumber) {
     let result = `Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`;
     cart = [];
     let emptyCart = cart;
-    return `${result} ${emptyCart}`;
+    return `${result}`;
   } //else {
     return `Sorry, we don't have a credit card on file for you.`
 //  }
