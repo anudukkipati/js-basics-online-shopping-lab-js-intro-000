@@ -68,7 +68,7 @@ function placeOrder(cardNumber) {
   if(Number.isInteger(cardNumber)) {
     for (var i = cart.length; i>= 0; i--) {
       cart.pop();
-    } 
+    }
     return `Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`
   } //else {
     return `Sorry, we don't have a credit card on file for you.`
